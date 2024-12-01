@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@font-face {
+  font-family: 'Austin';
+  src: url('AustinCyr-Roman.woff2') format('woff2'),
+       url('AustinCyr-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adobe Garamond Pro';
+  src: url('AGaramondPro-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: white;
+  --main-color: #474449;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  background-image: url('sign.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(55, 52, 52, 0.273);
+  z-index: -1;
+}
+
+h1 {
+  font-size: 150px;
+  color: rgb(227, 224, 224);
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: 590;
+  letter-spacing: 25px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 21px;
+  color: rgb(192, 184, 184);
+  font-family: 'Times New Roman', serif;
+  font-weight: 550;
+  word-spacing: 110px;
+  letter-spacing: 2px;
+  padding-right: 5%;
+  margin-top: -20px;
+  margin-bottom: 8px;
+}
+
+.title {
+  padding-bottom: 40%;
+  position: relative;
+}
+
+.box-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: rgb(9, 9, 9);
+  border-radius: 25px;
+  padding: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+  width: 92%;
+  margin: auto;
+}
+
+p {
+  font-family: 'Adobe Garamond Pro', serif;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+.p-one {
+  margin-top: -60px;
+  text-align: center;
+}
+
+p.about-content {
+  font-style: normal;
+  line-height: 1.7rem;
+  font-size: 1.4rem;
+  margin: 10px 0px;
+  text-align: justify;
+}
+
+.inner-box {
+  background: #a8a8a85b;
+  border-radius: 35px;
+  padding: 75px;
+  margin-top: 30px;
+  color: white;
+  text-align: justify;
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  line-height: 1.3;
+  width: 57%;
+  margin: 117px 0px 0px -40px;
+}
+
+.about-section h2 {
+  font-family: 'Austin', serif;
+  font-size: 8rem;
+  line-height: 1;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -23rem;
+  margin-bottom: 8rem;
+  padding: 0px 0px 0px 720px;
+  letter-spacing: 5px;
+}
+
+.about-section2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50px;
+  padding: 0 40px;
+}
+
+h2.h2-two {
+  font-family: 'Austin', serif;
+  font-size: 8rem;
+  line-height: 1;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0;
+  width: 40%;
+  letter-spacing: 5px;
+  margin-top: 50px;
+}
+
+.inner-box2 {
+  background: #a8a8a85b;
+  border-radius: 35px;
+  padding: 70px;
+  color: white;
+  text-align: justify;
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  line-height: 1.6;
+  width: 59%;
+  margin: 0px -75px 0px 0px;
+}
+
+p.about-content2 {
+  margin: 6px 0;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: justify;
+}
+
+.significance {
+  margin-top: 200px;
+  font-size: 30px;
+  color: #fbf6e3;
+  font-style: normal;
+  font-family: 'Adobe Garamond Pro', serif;
+}
+
+.signi {
+  color: #f4eef8;
+}
+
+.significance p {
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 80px;
+  text-align: justify;
+  color: #f4eef8;
+}
+
+.line-one, .line-two {
+  width: 50%;
+  margin: 10px auto;
+  border: none;
+}
+
+.line-one {
+  border-top: 2px solid #bab3b3;
+}
+
+.line-two {
+  border-top: 2px dashed #c1b2b2;
+}
+
+.signi-content {
+  font-style: normal;
+}
+
+.significance li {
+  margin-bottom: -60px;
+  line-height: 1.2;
+  font-size: 19px;
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+li.i {
+  color: #fbf6e3;
+  font-weight: 100;
+}
+
+.significance li:last-child {
+  margin-bottom: 80px;
+}
+
+.boxes-section {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  margin-top: 80px;
+  padding: 15px;
+  margin-bottom: 50px;
+  align-items: center;
+  width: 100%;
+  margin-left: 210px;
+}
+
+.black-box {
+  background-color: rgba(0, 0, 0, 0.91);
+  color: white;
+  border-radius: 25px;
+  flex: 1 1 30%;
+  padding: 180px;
+  width: 25%;
+  text-align: center;
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.boxes-section a:nth-child(2) .black-box {
+  background-color: #A8A8A8 !important;
+  color: #080808;
+  width: 45%;
+  padding: 170px;
+}
+
+.boxes-section a:nth-child(2) .black-box p {
+  color: #080808;
+}
+
+.black-box:hover {
+  transform: scale(1.05);
+}
+
+.black-box h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: auto;
+  white-space: nowrap;
+}
+
+.black-box p {
+  font-size: 18px;
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: visible;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #908995;
+  margin-top: -15px;
+}
+
+.footer-box {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #080808;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  margin-top: auto;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.footer-title {
+  font-family: 'Austin', serif;
+  font-size: 24px;
+  letter-spacing: 2px; 
+  margin-bottom: 10px;
+  color: #A8A8A8;
+}
+
+.footer-names {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d6d6d6; 
+  border-radius: 10px; 
+  padding: 10px 20px;
+  margin: 0 50px; 
+}
+
+.footer-names span {
+  font-family: 'EB Garamond', serif;
+  font-size: 21px;
+  font-style: italic;
+  color: black;
+}
